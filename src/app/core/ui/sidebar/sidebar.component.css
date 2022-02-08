@@ -1,0 +1,32 @@
+.sidenav-head{
+    height: 60px;
+    padding: 22px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.sidenav-body{
+    padding-top: 12px;
+    background-color: rgb(68, 68, 253);
+}
+.sidenav-body div{
+    padding: 12px 10px 12px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+    color: white;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+}
